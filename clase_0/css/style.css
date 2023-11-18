@@ -1,0 +1,538 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;  
+}
+
+.margin_1 {
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+/* modif segun etiq (color texto) */
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* Navegacion */
+
+header  {
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .80);
+}
+
+.nav {
+    background-color: rgb(242, 203, 155) ;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.icono_titulo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 0 20px ;
+    gap: 10px;
+}
+
+.icono {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+}
+
+.nav1titulo {
+    display: flex;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(86, 81, 81);
+
+}
+
+.nav_lista {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    z-index: 10;
+    
+    
+}
+   
+.lista {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+}
+
+#check-menu, .nav label {
+    display: none;
+}
+
+
+
+                            /* Presentacion */
+
+.inicio-presentacion {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 203, 155, 0.637);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentacion {
+    display: flex;
+
+    padding: 0px 50px 50px 50px;
+}
+
+
+.presentacion-img {
+    display: flex;
+    margin: 0px 20px 0px 150px;    
+}
+
+.presentacion-text {
+    background-color: white;
+    align-items: center;
+    
+    display: flex;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 30px;
+
+}
+
+.presentacion2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    
+}
+
+
+
+
+p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/* #arriba3 {color: green}*/
+ 
+
+
+/* Modif. por Class  (tamaño de texto)*/ 
+
+
+
+.text {
+    font-size: 18px;
+}
+
+/* Bordes redondeados */
+.borde-redondo {
+    border-radius: 30px;}
+
+/* Modif. del tamaño de imagen */
+.img-chica {
+    width: 300px;
+    height: 300px;
+}
+
+.img-medium {
+     width: 300px;
+     height: 450px;
+     margin-left: 1000px;
+     ;
+}
+
+.box1 {
+    width: 800px;
+    font-size: 25px
+}
+
+
+
+      /* Background cambiado, (se elije la ultima modificacion) */
+      /* #arriba2{background: url(/clase_0/img/monumental.jpg);} */
+
+
+.galeria {
+    width: 300px;
+}
+
+.cursiva {
+    font-family: cursive;
+    color: rgb(207, 205, 168);
+    font-size: 40px
+}
+
+.display {
+    display: inline-block;
+}
+
+.margen-izq1{
+    margin-left: 40px;
+}
+.margen-izq2{
+    margin-left: 60px;
+}
+
+.productos {
+    border: 3px solid black;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    display: inline-block;
+}
+    
+.productos3 {
+    border: 3px solid black;
+    width: 500px;
+    height: 300px;
+    margin-left: 800px;
+    top: 410px;
+    display: inline-block;
+    position: absolute;
+    }
+
+form {
+    width: 300px;
+    margin-left: 15px;
+    
+}
+
+
+.contenedor_padre {
+    display: flex;
+    height: 550px;
+    background-color: rgb(205, 218, 108);
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.contenedor_hijo {
+
+    height: 100px;
+    width: 250px;
+    font-weight: 600;
+    background-color: rgb(224, 220, 220);
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.hijo-bueno {
+    background-color: brown;
+    flex-basis: 400px;
+    flex-grow: 0;
+}
+
+.hijo-mas-bueno {
+    background-color: blue;
+    flex-basis: 600px;
+    flex-grow: 1;
+    order: 1;
+}
+
+.el-mejor-hijo {
+    background-color: darkcyan;
+    flex-basis: 150px;
+    flex-grow: 5;
+    order: 2;
+}
+
+/* Página productos */
+
+
+.inicio-presentacion-productos {
+    display: inline-block;
+    background-color: rgba(242, 203, 155, 0.637);
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+/* Velas - Grid */
+
+.productos-compras {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 4%;
+    background-color:rgba(242, 203, 155, 0.637);
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.card-compra {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(239, 181, 211, 0.291);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+    
+}
+
+.card-compra img {
+    width: 100%;
+    height: 400px;  
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-compra-tittle h4 {
+    font-size: 1.2rem;
+
+}
+
+.card-compra .card-compra-tittle {
+    width: 100%;
+    padding: 10px;
+    font-size: .80rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+
+.card-compra a.card-buttom {
+    margin-top: 10px;
+    padding: 0 0 0 10px;
+    width: 110px;
+    align-items: end;
+    background-color: none;
+}
+
+                        /*  FOOTER */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(242, 203, 155);
+    box-shadow: 0  0 20px  rgba(0, 0, 0, .45);
+    
+}
+
+                            /* Columna 1 */
+
+.footer-column1 {
+    display: flex;
+    width: 33%;
+    padding: 30px 0 0 40px;
+
+    flex-direction: column;
+
+}
+
+.footer-lista a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    
+   
+}
+
+                    /* Columna 2 */
+
+.footer-column2 {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer-column2 span{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.footer-column2 div a{
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+                    /* Columna 3 */
+
+.footer-column3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 20px;
+}
+
+.footer-column3 span{
+    display: flex;
+    font-size: 25px;
+    margin-top: 15px;
+    
+}
+
+.footer-column3 .footer-map {
+    width: 60%;
+}
+
+.footer-column3 .footer-map iframe{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Media queries */
+
+@media (max-width:768px){
+    .icono_titulo{
+        width: 70%;   
+    }
+
+        /* Check menu */
+    .nav label{
+        display: block;
+    }
+
+    .nav1titulo{
+        font-size: 25px;
+    }
+    .nav_lista{
+        display: none;
+
+    }
+
+    #check-menu:checked~.nav_lista{
+        position: absolute;
+        
+        left: 0;
+        top: 60px;
+        width: 100%;
+        height: 250px;
+        background-color: rgba(245, 213, 173, 0.923);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .productos-compras{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    .footer-column1{
+        display: inline;
+        width: 50%;
+    }
+
+    .footer-column2{
+        display: inline;
+        width: 50%;
+    }
+
+    .footer-column3{
+        display:none;
+    }
+    
+                    /* Presentacion */
+
+    .inicio-presentacion {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(242, 203, 155, 0.637);
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .presentacion-img{
+        display: flex;
+        margin: 0;
+        
+    }
+    .presentacion .presentacion-img img {
+        display: flex;  
+        width: 250px;
+        margin-bottom: 30px;
+        
+        
+    }
+    
+    .presentacion-text {
+        display: flex;
+        background-color: white;
+        width: 250px;
+        border: 1px solid;
+        border-radius: 20px;
+    
+    }
+
+
+    
+        
+
+}
